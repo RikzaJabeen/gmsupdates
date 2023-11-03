@@ -329,7 +329,7 @@ ul{
 /*all overlay*/
 
 .overlay {
-    background-color: rgba(41, 39, 34, 0.50);
+    background-color: rgba(255, 255, 255, 0.5);
     width: 100%;
     height:100%;
     position: absolute;
@@ -895,10 +895,10 @@ Home Section style
 ==================*/
 
 .home{
-    background: url(../images/hero-bg.png) no-repeat scroll  center center;
+    background: url(../images/hero-bg.png) no-repeat scroll;
     background-size: cover;
     position: relative;
-    padding-top: 14rem;
+    padding-top: 5rem;
     padding-bottom: 80px;
     height: 43rem;
     width:100%;
@@ -1002,8 +1002,8 @@ Home Section style
   
   }
   
+ /*slider sunset announcment*/
 
-  
   
 /*
 Featured section style

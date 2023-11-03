@@ -24,6 +24,8 @@ $(document).ready(function() {
   
     // Create a timer to trigger the next slide
     var timer = setInterval(nextSlide, interval);
+
+    
   
     // Pause autoplay when hovering over the slider
     $('.slidea').hover(function() {
