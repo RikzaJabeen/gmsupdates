@@ -1002,8 +1002,34 @@ Home Section style
   
   }
   
- /*slider sunset announcment*/
-
+ /*slider overlay css*/
+ .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Adjust the left position to your preference */
+    transform: translateY(-50%);
+    /*background: rgba(0, 0, 0);*/
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: left;
+    width: calc(100% - 20px); /* Set width to 100% minus padding for left-aligned text */
+  }
+  .text-content {
+    margin-bottom: 10px;
+    text-align: justify; /* Justify the text */
+  }
+  .button {
+    background-color: #0768e7;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
   
 /*
 Featured section style
