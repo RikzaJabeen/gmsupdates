@@ -1089,8 +1089,8 @@ h1 {
 }
 
 .box-left {
-    background-color:#A8A8A8;
-    color: #ffffff;
+   
+    color: #000000;
     border: 2px solid #223666;
     margin: 5px;
     width: 48%;
@@ -1099,8 +1099,8 @@ h1 {
     padding: 40px;
 }
 .box-right {
-    background-color:#A8A8A8;
-    color: #ffffff;
+   
+    color: #000000;
     margin: 5px;
     border: 2px solid #223666;
     width: 48%;
@@ -1206,7 +1206,7 @@ h1 {
     display: flex;
     overflow-x: auto; /* Enable horizontal scrolling */
     padding: 10px;
-    animation: scroll 10s linear infinite;
+    animation: scroll 20s linear infinite;
 }
 
 .logo {
