@@ -1137,8 +1137,8 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     padding-left: 25px;
-    background: #708197;
-    border: 2px solid #76a2dd;
+    background: #ffffff;
+    border: 2px solid #223666;
 }
 .box-ceoimage{
     border: 2px ;
@@ -1149,11 +1149,11 @@ h1 {
     padding: 40px;
 }
 .box-ceoimage img {
-    max-width: 50%;
+    max-width: 100%;
 }
 .box-text{
    
-    color: #ffffff;
+    color: #000000;
     margin: 5px;
     width: 50%;
     box-sizing: border-box;
