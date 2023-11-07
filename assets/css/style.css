@@ -1205,7 +1205,7 @@ h1 {
 .logos-container {
     display: flex;
     padding: 10px;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     overflow: hidden; /* Hide overflowing logos */
 }
 .logo {
