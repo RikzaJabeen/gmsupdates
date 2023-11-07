@@ -1204,11 +1204,10 @@ h1 {
 
 .logos-container {
     display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
     padding: 10px;
-    animation: scroll 20s linear infinite;
+    background-color: #f1f1f1;
+    overflow: hidden; /* Hide overflowing logos */
 }
-
 .logo {
     flex: 0 0 auto; /* Allow flex items to shrink, but not grow */
     margin-right: 20px; /* Adjust spacing between logos */
@@ -1225,6 +1224,10 @@ h1 {
     100% {
         transform: translateX(-100%);
     }
+}
+
+.logos-container .logo {
+    animation: scroll 10s linear infinite; /* Animation to scroll the logos */
 }
 /* logo section ends */
 
