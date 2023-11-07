@@ -1138,7 +1138,7 @@ h1 {
     justify-content: center;
     padding-left: 25px;
     background: #ffffff;
-    border: 2px solid #223666;
+    /* border: 2px solid #223666; */
 }
 .box-ceoimage{
     border: 2px ;
